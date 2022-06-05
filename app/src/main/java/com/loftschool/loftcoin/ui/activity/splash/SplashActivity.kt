@@ -43,5 +43,6 @@ class SplashActivity : AppCompatActivity() {
     override fun onStop() {
         compositeDisposable.dispose()
         super.onStop()
+        finish()
     }
 }
