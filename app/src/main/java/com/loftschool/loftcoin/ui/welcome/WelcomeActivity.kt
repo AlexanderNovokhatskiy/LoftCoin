@@ -1,8 +1,7 @@
-package com.loftschool.loftcoin.ui.activity.welcome
+package com.loftschool.loftcoin.ui.welcome
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -10,7 +9,8 @@ import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
 import com.loftschool.loftcoin.databinding.ActivityWelcomeBinding
-import com.loftschool.loftcoin.ui.activity.main.MainActivity
+import com.loftschool.loftcoin.ui.activity.welcome.WelcomeAdapter
+import com.loftschool.loftcoin.ui.main.MainActivity
 import com.loftschool.loftcoin.ui.widget.CircleIndicator
 
 class WelcomeActivity : AppCompatActivity() {

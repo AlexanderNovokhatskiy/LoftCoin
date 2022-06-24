@@ -1,4 +1,4 @@
-package com.loftschool.loftcoin.ui.activity.main
+package com.loftschool.loftcoin.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
