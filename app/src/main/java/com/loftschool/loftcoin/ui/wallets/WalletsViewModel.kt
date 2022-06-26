@@ -1,4 +1,4 @@
-package com.loftschool.loftcoin.ui.activity.wallets
+package com.loftschool.loftcoin.ui.wallets
 
 import androidx.lifecycle.ViewModel
 

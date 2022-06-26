@@ -1,11 +1,12 @@
-package com.loftschool.loftcoin.data.service.coins
+package com.loftschool.loftcoin.data.remote.service.coins
 
-import com.loftschool.loftcoin.data.models.Listings
+import com.loftschool.loftcoin.data.remote.models.Listings
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ListingsApi {
+
     @GET("cryptocurrency/listings/latest")
     fun getListings(@Query("convert") convert: String): Call<Listings>
 

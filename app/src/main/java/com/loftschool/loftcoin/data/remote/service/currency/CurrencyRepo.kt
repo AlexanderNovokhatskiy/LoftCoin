@@ -1,7 +1,7 @@
-package com.loftschool.loftcoin.data.service.currency
+package com.loftschool.loftcoin.data.remote.service.currency
 
 import androidx.lifecycle.LiveData
-import com.loftschool.loftcoin.data.models.Currency
+import com.loftschool.loftcoin.data.remote.models.Currency
 
 interface CurrencyRepo {
     fun availableCurrencies(): LiveData<List<Currency>>

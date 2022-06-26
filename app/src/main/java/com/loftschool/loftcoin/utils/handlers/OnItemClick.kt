@@ -1,4 +1,4 @@
-package com.loftschool.loftcoin.utils
+package com.loftschool.loftcoin.utils.handlers
 
 import android.content.Context
 import android.view.GestureDetector.SimpleOnGestureListener

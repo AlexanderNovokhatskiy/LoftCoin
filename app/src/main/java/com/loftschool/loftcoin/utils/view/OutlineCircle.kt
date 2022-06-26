@@ -1,4 +1,4 @@
-package com.loftschool.loftcoin.utils
+package com.loftschool.loftcoin.utils.view
 
 import android.graphics.Outline
 import android.view.View

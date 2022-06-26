@@ -1,4 +1,4 @@
-package com.loftschool.loftcoin.data.models
+package com.loftschool.loftcoin.data.remote.models
 
 import com.squareup.moshi.JsonClass
 

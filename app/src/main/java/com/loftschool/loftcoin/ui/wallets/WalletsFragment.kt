@@ -10,14 +10,20 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
+import com.loftschool.loftcoin.BaseComponent
 import com.loftschool.loftcoin.R
 import com.loftschool.loftcoin.databinding.FragmentWalletsBinding
 import com.loftschool.loftcoin.ui.activity.wallets.WalletsAdapter
+import javax.inject.Inject
 import kotlin.math.abs
 import kotlin.math.pow
 
-class WalletsFragment : Fragment() {
+class WalletsFragment @Inject constructor(
+
+): Fragment() {
+
     private var walletsSnapHelper: SnapHelper? = null
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
